@@ -1,3 +1,0 @@
-/Users/dante/Desktop/reacthreejs/SCT/CMakeFiles/sct.dir
-/Users/dante/Desktop/reacthreejs/SCT/CMakeFiles/edit_cache.dir
-/Users/dante/Desktop/reacthreejs/SCT/CMakeFiles/rebuild_cache.dir
