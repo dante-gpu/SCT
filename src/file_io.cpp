@@ -17,6 +17,7 @@ std::vector<std::string> get_txt_files(const std::string& dir_path) {
     return file_paths;
 }
 
+
 std::string read_file_content(const std::string& file_path) {
     std::ifstream file(file_path);
     std::stringstream buffer;
