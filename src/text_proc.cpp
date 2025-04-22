@@ -3,6 +3,7 @@
 #include <string>
 #include <vector>
 #include <algorithm>
+#include <sstream>
 
 std::string to_lowercase(const std::string& text) {
     std::string result = text;

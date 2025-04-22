@@ -4,8 +4,9 @@
 #include <sstream>
 #include <vector>
 #include <string>
-#include <__filesystem/filesystem>
-namespace fs = std::__fs::filesystem;
+#define _LIBCPP_FILESYSTEM_NAMESPACE std::__fs::filesystem
+#include <filesystem>
+namespace fs = _LIBCPP_FILESYSTEM_NAMESPACE;
 
 std::vector<std::string> get_txt_files(const std::string& dir_path) {
     std::vector<std::string> file_paths;

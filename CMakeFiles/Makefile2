@@ -81,12 +81,12 @@ clean: CMakeFiles/sct.dir/clean
 CMakeFiles/sct.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/sct.dir/build.make CMakeFiles/sct.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/sct.dir/build.make CMakeFiles/sct.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/dante/Desktop/reacthreejs/SCT/CMakeFiles --progress-num=1,2,3,4,5,6,7 "Built target sct"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/dante/Desktop/reacthreejs/SCT/CMakeFiles --progress-num=1,2,3,4,5,6,7,8 "Built target sct"
 .PHONY : CMakeFiles/sct.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/sct.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/dante/Desktop/reacthreejs/SCT/CMakeFiles 7
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/dante/Desktop/reacthreejs/SCT/CMakeFiles 8
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/sct.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/dante/Desktop/reacthreejs/SCT/CMakeFiles 0
 .PHONY : CMakeFiles/sct.dir/rule

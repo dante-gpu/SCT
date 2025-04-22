@@ -9,6 +9,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/sct.dir/src/main.cpp.o.d"
   "CMakeFiles/sct.dir/src/text_proc.cpp.o"
   "CMakeFiles/sct.dir/src/text_proc.cpp.o.d"
+  "CMakeFiles/sct.dir/src/utils.cpp.o"
+  "CMakeFiles/sct.dir/src/utils.cpp.o.d"
   "CMakeFiles/sct.dir/src/vectorizer.cpp.o"
   "CMakeFiles/sct.dir/src/vectorizer.cpp.o.d"
   "sct"

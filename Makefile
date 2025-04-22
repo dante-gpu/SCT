@@ -249,6 +249,30 @@ src/text_proc.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/sct.dir/build.make CMakeFiles/sct.dir/src/text_proc.cpp.s
 .PHONY : src/text_proc.cpp.s
 
+src/utils.o: src/utils.cpp.o
+.PHONY : src/utils.o
+
+# target to build an object file
+src/utils.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sct.dir/build.make CMakeFiles/sct.dir/src/utils.cpp.o
+.PHONY : src/utils.cpp.o
+
+src/utils.i: src/utils.cpp.i
+.PHONY : src/utils.i
+
+# target to preprocess a source file
+src/utils.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sct.dir/build.make CMakeFiles/sct.dir/src/utils.cpp.i
+.PHONY : src/utils.cpp.i
+
+src/utils.s: src/utils.cpp.s
+.PHONY : src/utils.s
+
+# target to generate assembly for a file
+src/utils.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sct.dir/build.make CMakeFiles/sct.dir/src/utils.cpp.s
+.PHONY : src/utils.cpp.s
+
 src/vectorizer.o: src/vectorizer.cpp.o
 .PHONY : src/vectorizer.o
 
@@ -297,6 +321,9 @@ help:
 	@echo "... src/text_proc.o"
 	@echo "... src/text_proc.i"
 	@echo "... src/text_proc.s"
+	@echo "... src/utils.o"
+	@echo "... src/utils.i"
+	@echo "... src/utils.s"
 	@echo "... src/vectorizer.o"
 	@echo "... src/vectorizer.i"
 	@echo "... src/vectorizer.s"
