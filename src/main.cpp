@@ -6,6 +6,7 @@
 #include "text_proc.h"
 #include "vectorizer.h"
 #include "cuda_sim.h"
+//#include "cuda_sim.h"
 #include "utils.h"
 
 int main(int argc, char** argv) {
