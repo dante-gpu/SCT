@@ -7,8 +7,8 @@
 
 class Vectorizer {
 public:
-    void fit(const std::vector<std::vector<std::string>>& documents);
-    std::vector<std::vector<float>> transform(const std::vector<std::vector<std::string>>& documents);
+    void fit(const std::vector<std::vector<std::string> >& documents);
+    std::vector<std::vector<float> > transform(const std::vector<std::vector<std::string> >& documents);
     std::unordered_map<std::string, int> get_vocabulary() const;
 
 private:

@@ -18,7 +18,7 @@ int main(int argc, char** argv) {
         file_contents.push_back(read_file_content(file_path));
     }
 
-    std::vector<std::vector<std::string>> documents;
+    std::vector<std::vector<std::string> > documents;
     for (const auto& content : file_contents) {
         std::string lowercase_content = to_lowercase(content);
         std::string no_punctuation_content = remove_punctuation(lowercase_content);
@@ -27,9 +27,9 @@ int main(int argc, char** argv) {
 
     Vectorizer vectorizer;
     vectorizer.fit(documents);
-    std::vector<std::vector<float>> tf_vectors = vectorizer.transform(documents);
+    std::vector<std::vector<float> > tf_vectors = vectorizer.transform(documents);
 
-    std::vector<std::tuple<int, int, float>> similarity_results =
+    std::vector<std::tuple<int, int, float> > similarity_results =
         calculate_similarity_cuda(tf_vectors, options.threshold);
 
     for (const auto& result : similarity_results) {

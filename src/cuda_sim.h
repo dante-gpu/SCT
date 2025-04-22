@@ -2,9 +2,10 @@
 #define SCT_CUDA_SIM_H
 
 #include <vector>
+#include <tuple>
 
-std::vector<std::tuple<int, int, float>> calculate_similarity_cuda(
-    const std::vector<std::vector<float>>& tf_vectors,
+std::vector<std::tuple<int, int, float> > calculate_similarity_cuda(
+    const std::vector<std::vector<float> >& tf_vectors,
     float threshold);
 
 #endif // SCT_CUDA_SIM_H

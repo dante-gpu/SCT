@@ -1,10 +1,12 @@
 cmake_minimum_required(VERSION 3.0)
 project(SCT)
 
-find_package(CUDA REQUIRED)
+set(CMAKE_CXX_STANDARD 11)
 
-include_directories(${CUDA_INCLUDE_DIRS})
+#find_package(CUDA REQUIRED)
+
+#include_directories(${CUDA_INCLUDE_DIRS})
 
 add_executable(sct src/main.cpp src/cli_parser.cpp src/file_io.cpp src/text_proc.cpp src/vectorizer.cpp src/cpu_sim.cpp)
 
-target_link_libraries(sct ${CUDA_LIBRARIES})
+#target_link_libraries(sct ${CUDA_LIBRARIES})

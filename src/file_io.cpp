@@ -4,11 +4,12 @@
 #include <sstream>
 #include <vector>
 #include <string>
-#include <filesystem>
+#include <__filesystem/filesystem>
+namespace fs = std::__fs::filesystem;
 
 std::vector<std::string> get_txt_files(const std::string& dir_path) {
     std::vector<std::string> file_paths;
-    for (const auto& entry : std::filesystem::directory_iterator(dir_path)) {
+    for (const auto& entry : fs::directory_iterator(dir_path)) {
         if (entry.is_regular_file() && entry.path().extension() == ".txt") {
             file_paths.push_back(entry.path().string());
         }
